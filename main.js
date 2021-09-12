@@ -26,8 +26,8 @@ var email=document.getElementById("email").innerHTML;
 
 // change section profile to section form
  function changeText(){
-     nama = "Hai";
-     role= "yopppp";
+     nama = document.getElementById("ans-nama").value;
+     role= document.getElementById("ans-role").value;
      availability= document.getElementById("ans-availability").value;
      usia= document.getElementById("ans-usia").value;
      lokasi= document.getElementById("ans-lokasi").value;
